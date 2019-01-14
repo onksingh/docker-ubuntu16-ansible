@@ -6,7 +6,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
         bash \
-        python-pip \
+        python3-pip \
         sudo \
         ca-certificates \
         software-properties-common \
